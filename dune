@@ -8,6 +8,6 @@
 (executable
   (name plugin_lib_base64)
   (embed_in_plugin_libraries base64)
-  (flags -linkall)
+  (flags (:standard -linkall))
   (modes (native plugin))
 )
